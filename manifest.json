@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "Udemy",
+    "version": "0.0.1",
+    "description": "Calculate the time taken to watch rest of videos",
+    "content_scripts": [
+        {
+            "matches": [
+                "https://nextuple.udemy.com/*"
+            ],
+            "js": [
+                "content.js"
+            ]
+        }
+    ]
+}
